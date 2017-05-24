@@ -1,0 +1,770 @@
+/*-------------------Very Large Devices---------------------------------*/
+
+@media (min-width: 1750px) {
+    .slider-item {
+        padding: 100px 450px 200px;
+    }
+
+    .main-header {
+        padding: 45px 0;
+    }
+}
+
+/*-------------------Large Devices---------------------------------*/
+
+@media (min-width: 1200px) and (max-width: 1749px) {
+    .container {
+        width: 1170px;
+    }
+
+    .main-header {
+        padding: 45px 0;
+    }
+
+    .slider-item {
+        padding: 60px 260px 100px;
+    }
+
+    .perfection-list .menu-text h3 {
+        font-size: 30px;
+        padding-bottom: 20px;
+    }
+
+    .perfection-list .menu-text h3 {
+        font-size: 30px;
+        padding-bottom: 30px;
+    }
+
+    .perfection-list .smooth:hover h3 {
+        font-size: 30px;
+    }
+
+    .perfection p {
+        font-size: 16px;
+    }
+
+    .achievements-list .center {
+        padding: 70px 0;
+    }
+
+    /*----------------Menu Page-------------------------------*/
+    .menu-meal .menu-list li {
+        padding: 0 20px 40px;
+    }
+
+    .menu-meal .overall-hdr {
+        padding: 110px 0;
+    }
+
+    .menu-meal .menu-list li img {
+        height: 300px;
+    }
+
+    .menu-box p {
+        font-size: 16px;
+        padding: 0 10px 50px;
+    }
+
+    .menu-meal .menu-list h3 {
+        font-size: 35px;
+        padding: 50px 0;
+    }
+
+    .achievements-list .beginning h3 {
+        padding-bottom: 10px;
+    }
+
+    /*-------------------Meal Page------------------------------*/
+    .meal-title h3 {
+        font-size: 45px;
+        padding: 60px 0;
+    }
+
+    .meal-title p {
+        padding-bottom: 60px;
+    }
+
+    .components p:first-child {
+        padding-bottom: 10px
+    }
+
+    .components p {
+        margin-left: 40px;
+    }
+
+    .components p:first-child {
+        font-size: 20px;
+    }
+
+    .components p:last-child {
+        line-height: 30px;
+    }
+
+    .cost {
+        padding: 60px 0;
+    }
+
+}
+
+/*-------------------Medium Devices---------------------------------*/
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .container {
+        width: 970px;
+    }
+
+    .main-header {
+        padding-top: 45px;
+    }
+
+    .slider-item {
+        padding: 80px 190px 130px;
+    }
+
+    .slick-dots li {
+        margin: 25px 5px;
+    }
+
+    .slick-dots li:before {
+        font-size: 14px;
+        width: 50px;
+    }
+
+    .welcome-section .bottom-content .table-btn {
+        top: -15px;
+        line-height: 50px;
+        padding: 0 40px;
+    }
+
+    .perfection-list .menu-text h3 {
+        font-size: 25px;
+        padding-bottom: 18px;
+    }
+
+    .perfection-list .smooth:hover h3 {
+        font-size: 25px;
+    }
+
+    .perfection-list li .menu-text {
+        padding: 20% 20px 0;
+    }
+
+    .perfection-list .smooth .menu-text {
+        padding-top: 57%;
+    }
+
+    .perfection p {
+        font-size: 14px;
+    }
+
+    .achievements-list .beginning h3 {
+        padding-bottom: 10px;
+    }
+
+    .achievements-list .center {
+        padding: 70px 0;
+    }
+
+    /*------------------Menu Page------------------------------------*/
+    .menu-meal .menu-list h3 {
+        font-size: 33px;
+        padding: 50px 0 50px;
+    }
+
+    .main-header {
+        padding: 45px 0;
+    }
+
+    .menu-meal .menu-list li {
+        padding: 0 20px 40px;
+    }
+
+    .menu-meal .menu-list li img {
+        height: 220px;
+    }
+
+    .menu-meal .overall-hdr {
+        padding: 110px 0;
+    }
+
+    .menu-box p {
+        font-size: 14px;
+        padding: 0 10px 40px;
+    }
+
+    .menu-meal .menu-list h3 {
+        font-size: 30px;
+        padding: 40px 0;
+    }
+
+    /*-----------Meal Page---------------------------------------------------*/
+    .menu-meal-hdr {
+        padding: 100px 0;
+    }
+
+    .menu-meal {
+        padding-bottom: 180px;
+    }
+
+    .menu-meal-hdr h2 {
+        font-size: 40px;
+    }
+
+    .meal-title h3 {
+        font-size: 38px;
+        padding: 50px 10px;
+    }
+
+    .meal-title p {
+        padding-bottom: 50px;
+        font-size: 20px;
+    }
+
+    .components {
+        text-align: center;
+    }
+
+    .components p:last-child {
+        text-align: center;
+    }
+
+    .components p {
+        margin-left: 0;
+    }
+
+    .components p:first-child {
+        font-size: 18px;
+        padding-bottom: 10px;
+    }
+
+    .components p:last-child {
+        line-height: 26px;
+        font-size: 18px;
+    }
+
+    .cost {
+        padding: 35px 0;
+    }
+
+    .cost span {
+        font-size: 60px;
+    }
+
+}
+
+/*-------------------Small Devices---------------------------------*/
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .container {
+        width: 750px;
+    }
+
+    .slider-item {
+        padding: 0;
+    }
+
+    .slick-dots {
+        top: 35%;
+    }
+
+    .slick-dots li {
+        margin: 25px 5px;
+    }
+
+    .slick-dots li:before {
+        font-size: 12px;
+        width: 50px;
+    }
+
+    .welcome-section .bottom-content {
+        padding-bottom: 90px;
+    }
+
+    .welcome-section .bottom-content .scroll {
+        font-size: 20px;
+    }
+
+    .welcome-section .bottom-content .table-btn {
+        top: -10px;
+        line-height: 40px;
+        padding: 0 40px;
+    }
+
+    .perfection-list .menu-text h3 {
+        font-size: 20px;
+        padding-bottom: 16px;
+    }
+
+    .perfection-list .menu-text h3:after {
+        padding-bottom: 15px;
+    }
+
+    .perfection-list .smooth:hover h3 {
+        font-size: 20px;
+    }
+
+    .perfection-list li .menu-text {
+        padding: 20% 20px 0;
+    }
+
+    .perfection-list .smooth .menu-text {
+        padding-top: 57%;
+    }
+
+    .perfection p {
+        font-size: 12px;
+    }
+
+    .achievements-list .center h3 {
+        font-size: 20px;
+    }
+
+    .achievements-list .center p {
+        font-size: 20px;
+    }
+
+    .achievements-list .center {
+        padding: 70px 0;
+    }
+
+    /*--------------Menu Page--------------------------------------*/
+    .menu-meal {
+        padding-bottom: 150px;
+    }
+
+    .menu-meal .overall-hdr {
+        padding: 90px 0;
+    }
+
+    .main-header {
+        padding: 45px 0;
+    }
+
+    .menu-meal .menu-list li {
+        padding: 0 10px 30px;
+    }
+
+    .menu-meal .menu-list li img {
+        height: 170px;
+    }
+
+    .menu-box p {
+        font-size: 10px;
+        padding: 0 10px 30px;
+    }
+
+    .menu-meal .menu-list h3 {
+        font-size: 25px;
+        padding: 30px 0;
+    }
+
+    /*----------------Meal Page--------------------------------------*/
+    .menu-meal {
+        padding-bottom: 150px;
+    }
+
+    .meal-title h3 {
+        font-size: 25px;
+        padding: 30px 0;
+    }
+
+    .meal-title p {
+        padding-bottom: 30px;
+        font-size: 16px;
+    }
+
+    .components {
+        text-align: center;
+        padding: 20px 0;
+    }
+
+    .components p:last-child {
+        text-align: center;
+    }
+
+    .components p {
+        margin-left: 0;
+    }
+
+    .components p:first-child {
+        font-size: 18px;
+        padding-bottom: 10px;
+    }
+
+    .components p:last-child {
+        line-height: 22px;
+        font-size: 18px;
+    }
+
+    .cost {
+        padding: 30px 0;
+    }
+
+    .cost span {
+        font-size: 40px;
+    }
+}
+
+/*-------------------ExtraSmall Devices---------------------------------*/
+
+@media (max-width: 767px) {
+    .container {
+        width: auto;
+    }
+
+    .welcome-section {
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-flex-direction: column;
+        flex-direction: column;
+    }
+
+    .main-header {
+        padding: 45px 0;
+        -webkit-flex-direction: column;
+        flex-direction: column;
+        -webkit-align-items: center;
+        align-items: center;
+    }
+
+    .main-header .logo {
+        padding-bottom: 20px;
+    }
+
+    .main-header .navigation li {
+        float: none;
+        display: inline-flex;
+
+    }
+
+    .navigation a {
+        font-size: 12px;
+        padding: 0 10px 0;
+    }
+
+    .slider-item {
+        padding: 0;
+    }
+
+    .slick-dots li:before {
+        display: none;
+    }
+
+    .welcome-section .bottom-content {
+        padding-top: 10px;
+        padding-bottom: 60px;
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .welcome-section .bottom-content .scroll {
+        font-size: 18px;
+        padding-bottom: 10px;
+    }
+
+    .bottom-content .scroll:after {
+        top: 75px;
+    }
+
+    .welcome-section .bottom-content .table-btn {
+        position: static;
+        right: 0;
+        top: 0;
+        line-height: 30px;
+        padding: 0 30px;
+    }
+
+    .perfection {
+        background: url("../images/gratia-bg.jpg") 50% top no-repeat;
+        background-size: contain;
+    }
+
+    .perfection-list .menu-text h3 {
+        font-size: 35px;
+        padding-bottom: 30px;
+    }
+
+    .perfection-list .menu-text h3:after {
+        padding-bottom: 15px;
+    }
+
+    .perfection-list .smooth:hover h3 {
+        font-size: 35px;
+    }
+
+    .perfection-list li .menu-text {
+        padding: 25% 20px 0;
+    }
+
+    .perfection-list .smooth .menu-text {
+        padding-top: 62%;
+    }
+
+    .perfection .perfection-list {
+        -webkit-flex-direction: column;
+        flex-direction: column;
+        padding-bottom: 30px;
+    }
+
+    .perfection p {
+        font-size: 15px;
+    }
+
+    .perfection-list li {
+        width: 100vw;
+    }
+
+    .perfection-list .smooth {
+        box-shadow: 0 0 0 0 #f1f1f1;
+    }
+
+    .perfection p {
+        font-size: 15px;
+    }
+
+    .perfection .overall-hdr {
+        padding: 60px 0 60px;
+    }
+
+    .perfection .overall-hdr h2 {
+        font-size: 30px;
+        color: #151b28;
+        padding-bottom: 25px;
+    }
+
+    .perfection .offer-btn {
+        margin-bottom: 30px;
+    }
+
+    .details .wrap {
+        width: 400px;
+        max-width: 100%;
+        padding: 20px;
+    }
+
+    .details .wrap .preparation-btn {
+        line-height: 30px;
+        padding: 0 10px 0;
+        font-size: 10px;
+    }
+
+    .details-wrap .overall-hdr h2 {
+        font-size: 30px;
+        padding-bottom: 20px;
+    }
+
+    .details-wrap .overall-hdr p {
+        font-size: 18px;
+        padding-bottom: 30px;
+    }
+
+    .achievements {
+        background: url("../images/gratia-bg.jpg") 50% top no-repeat;
+        background-size: contain;
+    }
+
+    .achievements-list .center h3 {
+        font-size: 16px;
+    }
+
+    .achievements-list .center p {
+        font-size: 16px;
+    }
+
+    .achievements .overall-hdr h2 {
+        font-size: 30px;
+        padding-bottom: 20px;
+    }
+
+    .achievements p {
+        font-size: 24px;
+    }
+
+    .achievements .overall-hdr {
+        padding: 50px 0 100px;
+    }
+
+    .achievements-list {
+        -webkit-flex-direction: column;
+        flex-direction: column;
+        padding-bottom: 50px;
+    }
+
+    .achievements-list li {
+        width: 100%;
+        max-width: 90%;
+        margin: 0 auto;
+    }
+
+    .achievements-list .center {
+        padding: 70px 0;
+    }
+
+    .footer-logo img {
+        width: 70px;
+        padding: 10px;
+    }
+
+    footer .footer-logo {
+        top: -35px;
+    }
+
+    /*-----------------Menu Page------------------------------------*/
+    .navigation-menu a {
+        font-size: 14px;
+    }
+
+    .menu-meal {
+        padding-bottom: 100px;
+        background: url("../images/gratia-bg.jpg") 50% 2% no-repeat;
+        background-size: contain;
+    }
+
+    .menu-meal.overall-hdr {
+        padding: 80px 0;
+    }
+
+    .menu-meal .menu-list h3 {
+        font-size: 25px;
+        padding: 20px 0 20px;
+    }
+
+    .menu-meal .menu-list li {
+        width: auto;
+        margin: 0 20px;
+    }
+
+    .menu-meal .menu-list li img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    .menu-box p {
+        font-size: 16px;
+        padding: 0 10px 35px;
+    }
+
+    /*-------------------Meal Page-----------------------------------*/
+    .meal-box {
+        -webkit-flex-direction: row;
+        flex-direction: row;
+        -webkit-align-items: stretch;
+        align-items: stretch;
+        max-width: 100%;
+        margin: 0;
+        align-content: center;
+        box-shadow: 0 0 100px 40px #f1f1f1;
+    }
+
+    .meal-title h3 {
+        font-size: 20px;
+        padding: 15px 0;
+    }
+
+    .meal-title p {
+        padding-bottom: 20px;
+        font-size: 16px;
+    }
+
+    .components {
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    .components p:last-child {
+        text-align: center;
+        width: auto;
+        padding: 0 10px;
+    }
+
+    .components p {
+        margin-left: 0;
+    }
+
+    .components p:first-child {
+        font-size: 16px;
+        padding-bottom: 10px;
+    }
+
+    .components p:last-child {
+        line-height: 15px;
+        font-size: 16px;
+    }
+
+    .cost {
+        padding: 50px 0 10px;
+    }
+
+    .cost span {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 565px) {
+
+    /*---------------------Meal Page---------------------------------*/
+    .meal-box {
+        -webkit-flex-direction: column;
+        flex-direction: column;
+    }
+
+    .meal-box > div {
+        width: 100%;
+        height: auto;
+    }
+
+    .meal-title h3 {
+        font-size: 24px;
+        padding: 30px 0;
+    }
+
+    .meal-title p {
+        padding-bottom: 30px;
+        font-size: 16px;
+    }
+
+    .components {
+        text-align: center;
+        padding: 20px 0;
+    }
+
+    .components p:last-child {
+        text-align: center;
+        width: auto;
+    }
+
+    .components p {
+        margin-left: 0;
+    }
+
+    .components p:first-child {
+        font-size: 18px;
+        padding-bottom: 10px;
+    }
+
+    .components p:last-child {
+        line-height: 20px;
+        font-size: 16px;
+    }
+
+    .cost {
+        padding: 30px 0;
+    }
+
+    .cost span {
+        font-size: 40px;
+    }
+
+    .menu-meal .overall-hdr {
+        padding: 80px 0;
+    }
+}

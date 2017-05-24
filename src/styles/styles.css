@@ -1,0 +1,792 @@
+/*----------------------------------------------------------------------------------*/
+/*------------------------------RESET DEFAULT STYLES--------------------------------*/
+/*----------------------------------------------------------------------------------*/
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font: 12px Tahoma, sans-serif;
+    background: #fff;
+    color: #000;
+}
+
+div, menu, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, table, td, tr, form, fieldset, legend, label, select, input, textarea, button {
+    padding: 0;
+    margin: 0;
+    outline: none;
+    list-style: none;
+}
+
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------DEFAULT CLASSES------------------------------*/
+/*----------------------------------------------------------------------------------*/
+
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------FONTS----------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+@font-face {
+    font-family: "MontBold";
+    src: url('../fonts/montserrat/montserrat-bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "CrimsonItalic";
+    src: url('../fonts/crimson/crimson-italic.ttf') format('truetype');
+}
+
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------WRAPPER--------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+.wrapper {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    height: 100%;
+}
+
+.content {
+    -webkit-flex: 1 0 auto;
+    flex: 1 0 auto;
+}
+
+footer {
+    -webkit-flex: 1 0 auto;
+    flex: 0 0 auto;
+}
+
+.container {
+    width: 1850px;
+    max-width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+    text-align: center;
+    font: 16px "MontBold", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+h2 {
+    font: 48px "MontBold", sans-serif;
+    color: #151b28;
+}
+
+p {
+    font: 24px "CrimsonItalic", sans-serif;
+    color: #8a8f9c;
+}
+
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------HEADER MAIN---------------------------------------*/
+/*----------------------------Welcome Section---------------------------*/
+.welcome-section {
+    background: #161c29;
+    background-size: cover;
+    position: relative;
+}
+
+.flex-wrap {
+    min-height: 100vh;
+    height: auto;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.main-header {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 65px;
+}
+
+.main-header .logo {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.main-header .logo h1 {
+    margin-left: 15px;
+    color: #fff;
+}
+
+.main-header .navigation {
+    overflow: hidden;
+}
+
+.main-header .navigation li {
+    float: left;
+}
+
+.navigation a {
+    display: inline-block;
+    color: #fff;
+    font: 16px "MontBold", sans-serif;
+    line-height: 40px;
+    padding: 0 30px 0;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    transition: .35s linear;
+}
+
+.navigation li:hover a {
+    border: 1px solid #f9fafe;
+}
+
+.slider {
+    margin: 0 60px;
+}
+
+.slider-item {
+    background: url("../images/text-bg.png") 50% 45% no-repeat;
+    background-size: cover;
+    padding: 100px 200px 200px 300px;
+}
+
+.slider img {
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+}
+
+.slick-prev, .slick-next {
+    width: 55px;
+    height: 110px;
+}
+
+.slick-prev {
+    background: url("../images/arrow-prev.png") 50% 50% no-repeat;
+    left: -60px;
+}
+
+.slick-next {
+    right: -60px;
+    background: url("../images/arrow-next.png");
+}
+
+.slick-dots {
+    left: -60px;
+    z-index: 100;
+    top: 85%;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: inline-flex;
+    -ms-flex-direction: column;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+}
+
+.slick-dots li {
+    margin: 30px 5px;
+}
+
+.slick-dots li:before {
+    content: "02";
+    width: 70px;
+}
+
+.slick-dots li:first-child:before {
+    content: "01";
+}
+
+.slick-dots li:last-child:before {
+    content: "03";
+}
+
+.slick-dots li.slick-active:before {
+    border-bottom: 1px solid #c78f5e;
+    color: #c78f5e;
+}
+
+.welcome-section .bottom-content {
+    position: relative;
+    z-index: 10;
+    max-width: 100%;
+    padding-bottom: 115px;
+
+}
+
+.welcome-section .bottom-content .scroll {
+    margin: 0 auto;
+    font: 24px "CrimsonItalic", sans-serif;
+    color: #fff;
+    opacity: .5;
+    pointer-events: none;
+}
+
+.bottom-content .scroll:after {
+    display: inline-block;
+    position: absolute;
+    cursor: pointer;
+    left: 50%;
+    top: 55px;
+    content: "";
+    width: 20px;
+    height: 45px;
+    background: url("../images/scroll.png") 50% 50% no-repeat;
+    pointer-events: all;
+}
+
+.welcome-section .bottom-content .table-btn {
+    position: absolute;
+    display: inline-block;
+    right: 15px;
+    top: -20px;
+    line-height: 60px;
+    padding: 0 50px;
+    border: 1px solid #263045;
+    color: #c78f5e;
+    -webkit-transition: 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
+}
+
+.welcome-section .bottom-content .table-btn:hover {
+    color: #fff;
+    background: #c78f5e;
+    border: 1px solid transparent;
+
+}
+
+/*-------------------------------------CONTENT--------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+.perfection {
+    background: url("../images/gratia-bg.jpg") 50% 10% no-repeat;
+}
+
+.perfection .overall-hdr {
+    padding: 140px 0 110px;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -ms-flex-direction: column;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.perfection .overall-hdr h2 {
+    padding-bottom: 40px;
+}
+
+.perfection .perfection-list {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    padding-bottom: 80px;
+}
+
+.perfection-list li {
+    width: calc(100vw / 3);
+    position: relative;
+}
+
+.perfection-list li img {
+    width: 100%;
+    height: auto;
+    -webkit-transition: 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
+}
+
+.perfection-list .smooth {
+    margin: 0 65px;
+    box-shadow: 0 -40px 100px 20px #f1f1f1;
+}
+
+.perfection-list li .menu-text {
+    padding-top: 25%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, .63);
+    height: 100%;
+    width: 100%;
+    -webkit-transition: 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
+}
+
+.perfection-list li a {
+    display: block;
+}
+
+.perfection-list li:hover .menu-text {
+    opacity: 0;
+}
+
+.perfection-list .menu-text h3 {
+    padding-bottom: 30px;
+    font-size: 48px;
+    color: #d89b64;
+}
+
+.perfection-list .smooth .menu-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    Width: 100%;
+    padding-top: 62%;
+}
+
+.perfection-list .smooth:hover .menu-text {
+    padding-top: 100%;
+    background: transparent;
+    opacity: 1;
+}
+
+.perfection-list .smooth:hover h3 {
+    font-size: 48px;
+    color: #151b28;
+    -webkit-transition: 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
+}
+
+.perfection-list .smooth:hover h3:after {
+    border-bottom: 1px solid #fff;
+}
+
+.perfection-list .menu-text h3:after {
+    display: block;
+    content: "";
+    width: 45px;
+    height: 1px;
+    margin: 0 auto;
+    border-bottom: 1px solid #d89b64;
+    padding-bottom: 30px;
+}
+
+.perfection-list .menu-text-sm .black:after {
+    border-bottom: 1px solid #fff;
+}
+
+.perfection .offer-btn {
+    display: inline-block;
+    line-height: 50px;
+    font-size: 18px;
+    color: #d89b64;
+    border-bottom: 1px solid #d89b64;
+    margin-bottom: 90px;
+    -webkit-transition: 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
+}
+
+.perfection .offer-btn:hover {
+    color: #fff;
+    background: #d89b64;
+    border-radius: 10px;
+    border-bottom: 1px solid transparent;
+    padding: 0 10px 0 10px;
+}
+
+/*--------------Details Section----------------------------------*/
+.details {
+    background: url("../images/details-bg.jpg") 50% 50% no-repeat;
+    padding: 140px 0 140px;
+}
+
+.details .wrap {
+    background: #fff;
+    width: 695px;
+    margin: 0 auto;
+    padding: 40px;
+}
+
+.details .details-wrap {
+    border: 1px solid #e2e3e6;
+    padding: 65px 0;
+}
+
+.details-wrap .overall-hdr h2 {
+    padding-bottom: 40px;
+}
+
+.details-wrap .overall-hdr p {
+    padding-bottom: 55px;
+}
+
+.details .wrap .preparation-btn {
+    display: inline-block;
+    line-height: 65px;
+    padding: 0 15px 0 15px;
+    border: 1px solid #dcdddf;
+    color: #e2b794;
+    -webkit-transition: 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
+}
+
+.details .wrap .preparation-btn:hover {
+    color: #fff;
+    background: #e2b794;
+    border: 1px solid transparent;
+}
+
+/*-------------------Achievements Section------------------------*/
+
+.achievements {
+    background: url("../images/gratia-bg.jpg") 50% 10% no-repeat;
+}
+
+.achievements .overall-hdr {
+    padding: 140px 0 130px;
+}
+
+.achievements .overall-hdr h2 {
+    padding-bottom: 40px;
+}
+
+.achievements-list {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    padding-bottom: 145px;
+}
+
+.achievements-list li {
+    width: calc(100vw / 3);
+    height: auto;
+}
+
+.achievements-list li a {
+    display: block;
+}
+
+.achievements-list .products {
+    background: url("../images/532.png") 50% 50% no-repeat;
+    margin: 0 30px;
+}
+
+.achievements-list .locations {
+    background: url("../images/4-bg.jpg") 50% 50% no-repeat;
+}
+
+.achievements-list .beginning {
+    background: url("../images/16-bg.jpg") 50% 50% no-repeat;
+}
+
+.achievements-list .center {
+    padding: 100px 0;
+    -webkit-transition: all 0.5s linear;
+    transition: all 0.5s linear;
+}
+
+.achievements-list .center h3 {
+    font-size: 24px;
+    color: #d89b64;
+    padding-bottom: 40px;
+}
+
+.achievements-list .center p {
+    font: 24px "CrimsonItalic", sans-serif;
+    color: #8a8f9c;
+}
+
+.achievements-list li .center:hover {
+    background: #151b28;
+    opacity: 0.7;
+}
+
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------SIDEBAR--------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------FOOTER---------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+footer {
+    border-top: 1px solid #e6e6e6;
+    width: 100vw;
+}
+
+footer .footer-logo {
+    display: inline-block;
+    position: relative;
+    top: -70px;
+    background: #fff;
+}
+
+.footer-logo img {
+    padding: 30px;
+    border: 1px solid #e6e6e6;
+    border-radius: 100px;
+}
+
+footer .footer-hdr {
+    padding-bottom: 30px;
+}
+
+footer .footer-hdr:after {
+    content: "";
+    display: inline-block;
+    width: 155px;
+    height: 1px;
+    border-bottom: 1px solid #8b909d;
+}
+
+.footer-hdr h2 {
+    font-size: 18px;
+    color: #161b29;
+    padding-bottom: 20px;
+}
+
+.footer-hdr p {
+    font: 18px "CrimsonItalic", sans-serif;
+    color: #8b909d;
+}
+
+.social {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 200px;
+}
+
+.social li a {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    text-indent: -9999px;
+}
+
+.social .fb {
+    background: url("../images/sprite.png") 0 50% no-repeat;
+}
+
+.social .tw {
+    background: url("../images/sprite.png") 50% 50% no-repeat;
+    margin: 0 15px;
+}
+
+.social .ins {
+    background: url("../images/sprite.png") 100% 50% no-repeat;
+}
+
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------OTHER----------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------HEADER-MENU-MEAL---------------------------------------*/
+
+.menu-meal {
+    background: url("../images/gratia-bg.jpg") 50% 7% no-repeat;
+    position: relative;
+}
+
+.menu-meal:before {
+    display: block;
+    content: '';
+    position: absolute;
+    top: 0;
+    min-width: 100vw;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.menu-meal-header .logo h1 {
+    color: #151b28;
+    margin-left: 15px;
+}
+
+.navigation-menu a {
+    color: #151b28;
+}
+
+.navigation-menu li:hover a {
+    color: #c78f5e;
+}
+
+/*--------------------------Section-MENU-PAGE----------------------------------*/
+
+.menu-meal {
+    padding-bottom: 250px;
+}
+
+.menu-meal .overall-hdr {
+    padding: 170px 0;
+}
+
+.menu-meal.overall-hdr h2 {
+    padding-bottom: 40px;
+}
+
+.menu-meal .menu-list h3 {
+    font-size: 48px;
+    color: #151b28;
+    padding: 70px 0 65px;
+}
+
+.menu-meal .menu-list li a {
+    display: block;
+}
+
+.menu-meal .menu-list {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    background: #f1f1f1;
+    box-shadow: 0 -20px 100px 40px #f1f1f1;
+}
+
+.menu-meal .menu-list li {
+    width: calc(100% / 3);
+    padding: 0 30px 60px;
+}
+
+.menu-meal .menu-list .img-wrap {
+    overflow: hidden;
+}
+
+.menu-meal .menu-list li img {
+    width: auto;
+    min-height: 100%;
+    height: 400px;
+    display: block;
+}
+
+.menu-box {
+    background: #fff;
+}
+
+.menu-box p {
+    padding-bottom: 85px;
+}
+
+/*----------------MEAL PAGE---------------------------------------------*/
+
+.menu-meal {
+    padding-bottom: 250px;
+    background: url("../images/gratia-bg.jpg") 50% 3% no-repeat;
+}
+
+.meal-box {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    max-width: 1300px;
+    margin: 0 auto;
+    -webkit-align-content: center;
+    align-content: center;
+    box-shadow: 0 0 100px 40px #f1f1f1;
+}
+
+.meal-box > div {
+    width: calc(100% / 2);
+    height: 100%;
+}
+
+.image-meal img {
+    width: 100%;
+    height: auto;
+}
+
+.meal-description {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+}
+
+.meal-title {
+    width: 100%;
+    border-bottom: 1px solid #8b909d;
+}
+
+.meal-title h3 {
+    font-size: 48px;
+    color: #151b28;
+    padding: 70px 0;
+}
+
+.meal-title p {
+    padding-bottom: 70px;
+}
+
+.components {
+    width: 100%;
+    padding: 30px 0;
+    text-align: left;
+    border-bottom: 1px solid #8b909d;
+}
+
+.components p {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 50px;
+}
+
+.components p:first-child {
+    width: 150px;
+    font: 24px "MontBold", sans-serif;
+    color: #151b29;
+
+}
+
+.components p:last-child {
+    width: 320px;
+    text-align: left;
+    line-height: 36px;
+}
+
+.cost {
+    padding: 30px 0;
+}
+
+.cost a {
+    display: inline-block;
+}
+
+.cost span {
+    display: block;
+    font-size: 72px;
+    color: #829c2c;
+}
